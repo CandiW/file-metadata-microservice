@@ -1,0 +1,45 @@
+<!DOCTYPE>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <link href="./style.css" rel="stylesheet" type="text/css"> 
+   <link href="https://fonts.googleapis.com/css?family=Vibur" rel="stylesheet"> 
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+    <h1 class="text text-primary">File MetaData Microservice</h1>
+    <h2><i class="fa fa-free-code-camp"></i> A freeCodeCamp Project</h2>
+
+    <div class="container-fluid" id="formFields">
+        <div class="centerForm">
+        <form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only">File</label>
+    <p class="form-control-static" id="textExample">File: </p>
+  </div>
+  <div class="form-group">
+    <label for="inputFile" class="sr-only">File Name</label>
+    <input type="filename" class="form-control" id="inputFile">
+  </div>
+  <button type="browse" class="btn btn-info"><i class="fa fa-file-o"></i> Browse</button>
+  <button type="submit" class="btn btn-warning"><i class="fa fa-search"></i> Submit</button>
+</form>
+</div>
+    </div>
+
+
+    <div class="container-fluid">
+        <h3 class="text text-primary">User stories:</h3>
+        <br>
+        <p> 1) I can submit a FormData object that includes a file upload.</p>
+        <p> 2) When I submit something, I will receive the file size in bytes within the JSON response. </p>
+    </div>
+
+
+
+</body>
+
+</html>

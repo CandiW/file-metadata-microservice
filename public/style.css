@@ -1,0 +1,34 @@
+body {
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'Vibur', cursive;
+    padding-top: 30px;
+}
+h2 {
+    font-family: 'Vibur', cursive;
+    padding-top: 30px;
+}
+h3 {
+    font-family: 'Vibur', cursive;
+    padding-top: 30px;
+}
+.fa-free-code-camp {
+    color: green;
+}
+
+#formFields {
+    margin-top: 30px;
+    background-color: lightgrey;
+    box-shadow: 10px 7px 7px gray;
+    height: 100px;
+    width: 500px;
+}
+.centerForm {
+    display: block;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+#textExample {
+    padding-right: 15px;
+}
